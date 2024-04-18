@@ -1,5 +1,0 @@
-#alias aptupdate='sudo apt update && sudo apt upgrade'
-#alias ibniz='swallow ibniz'
-#alias linssid='swallow sudo linssid'
-#alias myclean='sudo apt autoremove --purge'
-alias upgrade='sudo apt update && sudo apt full-upgrade -y'
