@@ -1,0 +1,9 @@
+githelp (){
+	echo 'git checkout -b anewbranch'
+	echo 'git checkout master; git merge development'
+}
+
+# Install Package List with DNF on Fedora Linux. Read list file as first argument.
+installlist (){
+sudo dnf install $(cat $1) # Read list as first function argument
+}

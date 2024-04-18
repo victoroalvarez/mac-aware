@@ -1,0 +1,15 @@
+
+conky
+feh
+intel-ucode
+java11-openjfx
+java8-openjfx
+ksh
+mtr
+nautilus
+qbittorrent
+tk
+traceroute
+zathura
+zathura-djvu
+zathura-pdf-mupdf

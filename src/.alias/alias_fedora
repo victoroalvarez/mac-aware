@@ -1,0 +1,3 @@
+alias dcu='sudo dnf check-update'
+alias dnfsearch='dnf search'
+alias myupdate='sudo dnf update && sudo flatpak update' # Update software packages and flatpaks

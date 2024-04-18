@@ -1,0 +1,6 @@
+https://help.ubuntu.com/community/HdaIntelSoundHowto
+https://ostechnix.com/fix-audio-issue-dummy-output-in-intel-nuc-on-debian-11/
+https://wiki.debian.org/Firefox
+https://wiki.debian.org/Swap
+https://www.cafecondebian.com/colocar-acentos-y-n-en-ubuntu-con-teclado-en-ingles/
+https://www.google.com.pr/search?q=hp+linux+options+snd-hda-intel+model+modprobe

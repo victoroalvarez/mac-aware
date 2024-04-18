@@ -1,0 +1,148 @@
+.
+├── docs
+│   ├── document-tree.txt
+│   ├── relevant-web-links.txt
+│   └── screenshots
+│       └── debian-bookworm_2023-08-23.png
+├── install-dotfiles.sh
+├── LICENSE
+├── README.md
+└── src
+    ├── .alias
+    │   ├── alias
+    │   ├── alias_debian
+    │   ├── alias_fedora
+    │   └── functions
+    ├── .bashrc_debian
+    ├── .bashrc_fedora
+    ├── .config
+    │   ├── conky
+    │   │   └── conky.conf
+    │   ├── dunst
+    │   │   └── dunstrc
+    │   ├── i3
+    │   │   ├── colorscheme.txt
+    │   │   ├── config
+    │   │   └── i3bar.conf
+    │   ├── i3status
+    │   │   └── config
+    │   ├── kitty
+    │   │   └── kitty.conf
+    │   ├── nvim
+    │   │   ├── init.vim
+    │   │   └── undo
+    │   ├── sway
+    │   │   └── config
+    │   ├── terminator
+    │   │   ├── config
+    │   │   ├── conky
+    │   │   │   └── conky.conf
+    │   │   ├── dunst
+    │   │   │   └── dunstrc
+    │   │   ├── i3
+    │   │   │   ├── colorscheme.txt
+    │   │   │   ├── config
+    │   │   │   └── i3bar.conf
+    │   │   ├── i3status
+    │   │   │   └── config
+    │   │   ├── nvim
+    │   │   │   └── init.vim
+    │   │   ├── sway
+    │   │   │   └── config
+    │   │   └── xfce4
+    │   │       ├── desktop
+    │   │       │   ├── icons.screen0-1904x1037.rc
+    │   │       │   ├── icons.screen0-1904x1832.rc
+    │   │       │   ├── icons.screen0-3824x2117.rc
+    │   │       │   └── icons.screen.latest.rc -> /home/voa/.config/xfce4/desktop/icons.screen0-1904x1832.rc
+    │   │       ├── panel
+    │   │       │   ├── launcher-17
+    │   │       │   │   └── 16782364521.desktop
+    │   │       │   ├── launcher-18
+    │   │       │   │   └── 16782364522.desktop
+    │   │       │   ├── launcher-19
+    │   │       │   │   └── 16782364523.desktop
+    │   │       │   └── launcher-20
+    │   │       │       └── 16782364524.desktop
+    │   │       ├── terminal
+    │   │       │   ├── accels.scm
+    │   │       │   └── terminalrc
+    │   │       └── xfce4-screenshooter
+    │   ├── waybar
+    │   │   ├── config
+    │   │   └── style.css
+    │   ├── wofi
+    │   │   ├── config
+    │   │   └── style.css
+    │   └── xfce4
+    │       ├── desktop
+    │       │   ├── icons.screen0-1904x1037.rc
+    │       │   ├── icons.screen0-1904x1832.rc
+    │       │   ├── icons.screen0-3824x2117.rc
+    │       │   └── icons.screen.latest.rc -> /home/voa/.config/xfce4/desktop/icons.screen0-1904x1832.rc
+    │       ├── panel
+    │       │   ├── launcher-17
+    │       │   │   └── 16782364521.desktop
+    │       │   ├── launcher-18
+    │       │   │   └── 16782364522.desktop
+    │       │   ├── launcher-19
+    │       │   │   └── 16782364523.desktop
+    │       │   └── launcher-20
+    │       │       └── 16782364524.desktop
+    │       ├── terminal
+    │       │   ├── accels.scm
+    │       │   └── terminalrc
+    │       └── xfce4-screenshooter
+    ├── .console-setup
+    ├── .keyboard
+    ├── .local
+    │   └── pictures
+    │       └── locked_black.png
+    ├── .notes
+    │   ├── help.txt
+    │   ├── .notes
+    │   ├── raspberrypi_accessories.txt
+    │   └── words-i-like.txt
+    ├── .package-lists
+    │   ├── arch-packages.txt
+    │   ├── debian12-packages.txt
+    │   ├── debian-contrib-nonfree-packages.txt
+    │   ├── debian-packages.txt
+    │   ├── fedora-packages.txt
+    │   ├── kvm-debian-packages.txt
+    │   ├── temp-arch-aur-packages.txt
+    │   └── temp-arch-packages.txt
+    ├── .screenlayout
+    │   ├── dual.sh
+    │   ├── home.sh
+    │   ├── portable.sh
+    │   └── triple.sh
+    ├── .scripts
+    │   ├── configuregit.sh
+    │   ├── disabletouchpadwhentyping.sh
+    │   ├── enabletouchpad.sh
+    │   ├── scripts
+    │   │   └── bash
+    │   │       ├── activate-virtualbox.sh
+    │   │       ├── append.sh
+    │   │       ├── arch-upgrade-script.sh
+    │   │       ├── changeVolume
+    │   │       ├── deactivate-virtualbox.sh
+    │   │       ├── debian-update-script.sh
+    │   │       ├── fedora-upgrade-script.sh
+    │   │       ├── flatpak-update-script.sh
+    │   │       ├── load-enable-vhost_net.sh
+    │   │       ├── showvolume.sh
+    │   │       └── test.txt
+    │   ├── settaptoclick.sh
+    │   └── upgrade-debian.sh
+    ├── .vim
+    │   └── .netrwhist
+    ├── .vimrc
+    ├── .xbindkeysrc
+    ├── .xinitrc
+    ├── .Xresources
+    ├── .zprofile
+    └── .zshrc
+
+47 directories, 99 files

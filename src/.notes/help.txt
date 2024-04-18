@@ -1,0 +1,7 @@
+Flatpak Help
+    $ flatpak list --app
+    $ flatpak uninstall org.gimp.GIMP
+
+Where should I place my own Scripts?
+	/usr/local/bin
+	~/scripts

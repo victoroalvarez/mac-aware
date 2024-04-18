@@ -1,0 +1,39 @@
+/* All */
+* {
+	border-radius: 3px;
+	border: none;
+}
+
+/* Window Properties*/
+window {
+	font-size: 18px;
+	font-family: "Roboto Mono Medium";
+	background-color:rgba(50,50,50,0.9);
+	color: white;
+}
+
+/* Items Padding */
+#entry {
+	padding: 0.25em;
+}
+
+/* Selection Box */
+#entry:selected {
+	background-color: #bbccdd;
+	background: linear-gradient(90deg, #0074D9, #7FDBFF);
+}
+
+#text:selected {
+	color: #111111;
+}
+
+#input {
+	background-color: rgba(50, 50, 50, 0.5);
+	color: white;
+	padding: 0.25em;
+}
+
+image {
+	margin-left: .25em;
+	margin-right: .25em;
+}
