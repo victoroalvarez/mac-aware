@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/voa/mac-aware/src/.config/skhd'
 let g:netrw_dirhist_6='/Users/voa/mac-aware/src/scripts/scripts/bash'
 let g:netrw_dirhist_5='/home/voa/.notes'
 let g:netrw_dirhist_4='/home/voa/.config'

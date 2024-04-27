@@ -3,7 +3,7 @@ shift + alt - return : open -n -a kitty
 #cmd - return : open -n -a kitty
 
 # launch firefox
-shift + alt - o : open -n -a firefox
+shift + alt - o : open -a Firefox
 
 # rotate layout clockwise
 #shift + alt - r : yabai -m space --rotate 270

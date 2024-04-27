@@ -1,5 +1,6 @@
 alias addall='git add .' # Add all files to repo
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
+alias brewupgrade='brew update && brew upgrade'
 alias c='clear' # Clear terminal
 alias checkzip='7z t'
 alias connectwifi='nmtui'
@@ -54,6 +55,7 @@ alias sqllogin='mysql -u root -p'
 alias startxampp='sudo /opt/lampp/lampp start'
 alias stopxampp='sudo /opt/lampp/lampp stop'
 alias updateyoutube='sudo yt-dlp -U'
+alias upgradepkgin='sudo pkgin update && sudo pkgin upgrade'
 alias workspace='cd $HOME/projects'
 alias youtube="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias youtubearchive="yt-dlp --embed-chapters --xattrs --embed-metadata --write-subs 'bestvideo[ext=webm]+bestaudio[ext=webm]'"
