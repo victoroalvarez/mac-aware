@@ -1,9 +1,13 @@
 # start kitty terminal
-shift + alt - return : open -n -a kitty
+shift + alt - return : open -na kitty
 #cmd - return : open -n -a kitty
 
+# start Finder
+#shift + alt - 0x2A : open -na "Finder" 
+shift + alt - 0x2A : open -R '/Users/voa/'
+
 # launch firefox
-shift + alt - o : open -a Firefox
+#shift + alt - o : open -na "Firefox"
 
 # rotate layout clockwise
 #shift + alt - r : yabai -m space --rotate 270
