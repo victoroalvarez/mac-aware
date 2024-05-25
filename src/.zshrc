@@ -4,21 +4,28 @@
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 
+autoload -U compinit; compinit
+
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 bindkey "^[[3~" delete-char
 
 NEWLINE=$'\n'
 #PROMPT="%K{blue}%n@%m%k %B%F{cyan}%(4~|...|)%3~%F{white} ${NEWLINE}%# %b%f%k"
-PROMPT="%n@%m ${NEWLINE}%# "
+PROMPT="%n@%m %~${NEWLINE}%# "
 
 # import aliases
-#alias ls='ls --color=auto'
 source $HOME/.alias/alias
-source $HOME/youtubeplaylists.env
 
-# Created by `pipx` on 2024-03-16 02:35:51
-export PATH="$PATH:/Users/voa/shell-aware/src/.local/bin"
+# Herd injected NVM configuration
+export NVM_DIR="/Users/voa/Library/Application Support/Herd/config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# Created by `pipx` on 2024-05-04 19:03:28
-export PATH="$PATH:/Users/voa/mac-aware/src/.local/bin"
+[[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
+
+# Herd injected PHP 8.3 configuration.
+export HERD_PHP_83_INI_SCAN_DIR="/Users/voa/Library/Application Support/Herd/config/php/83/"
+
+
+# Herd injected PHP binary.
+export PATH="/Users/voa/Library/Application Support/Herd/bin/":$PATH

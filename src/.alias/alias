@@ -11,6 +11,7 @@ alias editalias="vim ~/.alias/alias" # edit alias files
 alias editkitty='vim $HOME/.config/kitty/kitty.conf' # edit Kitty configuration
 alias editnvim='nvim ~/.config/nvim/init.vim' # edit neovim config
 alias edittodo='vim ~/TODO.md'
+alias editzsh='vim $HOME/.zshrc'
 alias ek='editkitty' # edit Kitty config
 alias findfile='sudo find / -name'
 alias ga='git add'
@@ -28,6 +29,7 @@ alias lesshistory='history |less'
 alias listprocesses='ps -e'
 alias ll='ls -lAX' # show all directories and their permissions
 alias lll='ll | less'
+alias ls='ls --color'
 alias motd='cat /etc/motd'
 alias myserve='python -m http.server' # run SimpleHTTPServer on current directory
 alias myt='youtube-dl --external-downloader aria2c --all-subs --add-metadata -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"' # download videos with mp4 video container
