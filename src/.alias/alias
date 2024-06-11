@@ -2,6 +2,7 @@ alias addall='git add .' # Add all files to repo
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
 alias brewupgrade='brew update && brew upgrade'
 alias c='clear' # Clear terminal
+alias calendar='cal'
 alias checkzip='7z t'
 alias connectwifi='nmtui'
 alias doubleping='ping -c 10' # Ping 10 times
@@ -9,6 +10,7 @@ alias download='aria2c -j 3 -c' # download a file
 alias downloadtorrent='aria2c -d ~/Downloads/bt --seed-time=0'
 alias editalias="vim ~/.alias/alias" # edit alias files
 alias editkitty='vim $HOME/.config/kitty/kitty.conf' # edit Kitty configuration
+alias editmacoscommands='vim $HOME/text/macos-commands.txt'
 alias editnvim='nvim ~/.config/nvim/init.vim' # edit neovim config
 alias edittodo='vim ~/TODO.md'
 alias editzsh='vim $HOME/.zshrc'
@@ -27,9 +29,10 @@ alias grepi='grep -i'
 alias la='ls -ax' # show all directories including hidden ones and sort by extension
 alias lesshistory='history |less'
 alias listprocesses='ps -e'
-alias ll='ls -lAX' # show all directories and their permissions
+alias ll='ls -la' # show all directories and their permissions
 alias lll='ll | less'
 alias ls='ls --color'
+alias macoscommands='less $HOME/text/macos-commands.txt'
 alias motd='cat /etc/motd'
 alias myserve='python -m http.server' # run SimpleHTTPServer on current directory
 alias myt='youtube-dl --external-downloader aria2c --all-subs --add-metadata -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"' # download videos with mp4 video container
@@ -53,6 +56,7 @@ alias simpleserver='python -m http.server'
 alias sleepnow='pmset sleepnow'
 alias sortalias='sort -o ~/.alias/alias ~/.alias/alias' # sort alias file
 alias sortinplace='sort -o'
+alias sortmacoscommands='sort -o $HOME/text/macos-commands.txt $HOME/text/macos-commands.txt'
 alias sourcealias='source ~/.alias/alias'
 alias sqllogin='mysql -u root -p'
 alias startxampp='sudo /opt/lampp/lampp start'
@@ -67,6 +71,6 @@ alias youtubeaudio="yt-dlp --embed-metadata --external-downloader aria2c -f 'bes
 alias youtubeaudioarchive="youtube-dl --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=webm]'"
 alias youtubeogg="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=ogg]'"
 alias youtubeplaylist='yt-dlp --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"'
-alias youtubevideo="yt-dlp --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias youtubevideo="yt-dlp --add-chapters --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias yt-dlp='yt-dlp --embed-metadata --embed-chapters'
 alias zipstore='zip -Z store -r'

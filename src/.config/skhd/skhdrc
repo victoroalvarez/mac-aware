@@ -6,8 +6,8 @@ shift + alt - return : open -na kitty
 #shift + alt - 0x2A : open -na "Finder" 
 shift + alt - 0x2A : open -R '/Users/voa/'
 
-# launch firefox
-#shift + alt - o : open -na "Firefox"
+# launch Obsidian
+shift + alt - o : open -na "Obsidian"
 
 # rotate layout clockwise
 #shift + alt - r : yabai -m space --rotate 270

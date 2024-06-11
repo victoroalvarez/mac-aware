@@ -1,0 +1,6 @@
+cal
+curl
+df
+lpr
+top
+whois
