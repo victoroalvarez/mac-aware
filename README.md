@@ -1,5 +1,5 @@
 # Mac Aware
-These are a collection of dotfiles and a Mouse-less Development Environment setup for Mac OS. The Mouseless Development setup uses Amethyst and SKHD. These files are managed with GNU Stow. They work for me and can serve as an example to you. Please don't use these files as they are, instead read them and adapt them to your needs.
+These are a collection of dotfiles and a Mouse-less Development Environment setup for Mac OS. This Mouseless Development setup uses Amethyst and SKHD. These files are managed with GNU Stow. They work for me and can serve as an example to you. Please don't use these files as they are, instead read them and adapt them to your needs.
 
 ## Faq
 
@@ -23,7 +23,7 @@ stow --target=$HOME src
 ```
 
 ### Which shell do you use?
-I use Bash. I'm also looking into ZShell and TCSH.
+I use ZSH.
 
 ## Conventions
 * $HOME denotes the /home/myuser/ directory on a system.
@@ -33,6 +33,7 @@ I use Bash. I'm also looking into ZShell and TCSH.
 * docs - Contains documentation and pictures.
 
 ## Change Log
+* 2024-07-02 07:59 pm AST. Improve README file.
 * 2024-04-18 05:18 am AST. Fork repository from shell-aware into mac-aware and remove all GNU/Linux related files and directories.
 
 ## References & Links
