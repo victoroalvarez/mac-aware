@@ -1,4 +1,5 @@
 alias addall='git add .' # Add all files to repo
+alias countlines='wc -l'
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
 alias brewupgrade='brew update && brew upgrade'
 alias c='clear' # Clear terminal
@@ -26,6 +27,7 @@ alias gitstat='git status'
 alias gitstatus='git status'
 alias gotomacdata='cd /Volumes/MacData'
 alias grepi='grep -i'
+alias killprocess='killall -KILL'
 alias la='ls -ax' # show all directories including hidden ones and sort by extension
 alias lesshistory='history |less'
 alias listprocesses='ps -e'

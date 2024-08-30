@@ -29,3 +29,7 @@ export HERD_PHP_83_INI_SCAN_DIR="/Users/voa/Library/Application Support/Herd/con
 
 # Herd injected PHP binary.
 export PATH="/Users/voa/Library/Application Support/Herd/bin/":$PATH
+
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/voa/Library/Application Support/Herd/config/php/84/"
