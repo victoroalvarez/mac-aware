@@ -1,11 +1,11 @@
 alias addall='git add .' # Add all files to repo
-alias countlines='wc -l'
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
 alias brewupgrade='brew update && brew upgrade'
 alias c='clear' # Clear terminal
 alias calendar='cal'
 alias checkzip='7z t'
 alias connectwifi='nmtui'
+alias countlines='wc -l'
 alias doubleping='ping -c 10' # Ping 10 times
 alias download='aria2c -j 3 -c' # download a file
 alias downloadtorrent='aria2c -d ~/Downloads/bt --seed-time=0'
@@ -42,6 +42,7 @@ alias mytmp4='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"' # download 
 alias myvim='vim $HOME/.vimrc'
 alias mywallpaper='feh --bg-tile /home/voa/Pictures/patterns/cubes.xpm.gif'
 alias phpserver='php -S localhost:8080'
+alias pinggoogle='ping 8.8.8.8'
 alias readarchnews='lynx https://archlinux.org/news/' # Read arch news
 alias readnetflix='less $HOME/text/netflix-codes.txt'
 alias restartskhd='skhd --restart-service'
@@ -64,6 +65,7 @@ alias sqllogin='mysql -u root -p'
 alias startxampp='sudo /opt/lampp/lampp start'
 alias stopxampp='sudo /opt/lampp/lampp stop'
 alias updateyoutube='sudo yt-dlp -U'
+alias upgradebrew='brew update && brew upgrade'
 alias upgradebrew='brew update && brew upgrade'
 alias upgradepkgin='sudo pkgin update && sudo pkgin upgrade'
 alias workspace='cd $HOME/projects'

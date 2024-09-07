@@ -9,6 +9,10 @@ shift + alt - 0x2A : open -R '/Users/voa/'
 # launch Obsidian
 shift + alt - o : open -na "Obsidian"
 
+# launch Chrome
+shift + alt - b : open -na "Google Chrome"
+
+
 # rotate layout clockwise
 #shift + alt - r : yabai -m space --rotate 270
 
