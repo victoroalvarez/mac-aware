@@ -13,6 +13,7 @@ alias editalias="vim ~/.alias/alias" # edit alias files
 alias editkitty='vim $HOME/.config/kitty/kitty.conf' # edit Kitty configuration
 alias editmacoscommands='vim $HOME/text/macos-commands.txt'
 alias editnvim='nvim ~/.config/nvim/init.vim' # edit neovim config
+alias editskhd='vim .config/skhd/skhdrc'
 alias edittodo='vim ~/TODO.md'
 alias editzsh='vim $HOME/.zshrc'
 alias ek='editkitty' # edit Kitty config
@@ -27,6 +28,7 @@ alias gitstat='git status'
 alias gitstatus='git status'
 alias gotomacdata='cd /Volumes/MacData'
 alias grepi='grep -i'
+alias intallpkg='sudo pkgin install'
 alias killprocess='killall -KILL'
 alias la='ls -ax' # show all directories including hidden ones and sort by extension
 alias lesshistory='history |less'
@@ -43,10 +45,13 @@ alias myvim='vim $HOME/.vimrc'
 alias mywallpaper='feh --bg-tile /home/voa/Pictures/patterns/cubes.xpm.gif'
 alias phpserver='php -S localhost:8080'
 alias pinggoogle='ping 8.8.8.8'
+alias readalias='less .alias/alias'
 alias readarchnews='lynx https://archlinux.org/news/' # Read arch news
 alias readnetflix='less $HOME/text/netflix-codes.txt'
 alias restartskhd='skhd --restart-service'
 alias sa='sortalias && sourcealias'
+alias searchbrew='brew search'
+alias searchpkg='pkgin search'
 alias seegroups='id $(whoami)'
 alias setcolortemperature='sct 6500'
 alias setperformance='sudo cpupower frequency-set -g performance'
@@ -58,6 +63,7 @@ alias shutdownstilllater='sudo shutdown +60'
 alias simpleserver='python -m http.server'
 alias sleepnow='pmset sleepnow'
 alias sortalias='sort -o ~/.alias/alias ~/.alias/alias' # sort alias file
+alias sortandsourcealias='sortalias && sourcealias'
 alias sortinplace='sort -o'
 alias sortmacoscommands='sort -o $HOME/text/macos-commands.txt $HOME/text/macos-commands.txt'
 alias sourcealias='source ~/.alias/alias'
@@ -65,16 +71,18 @@ alias sqllogin='mysql -u root -p'
 alias startxampp='sudo /opt/lampp/lampp start'
 alias stopxampp='sudo /opt/lampp/lampp stop'
 alias updateyoutube='sudo yt-dlp -U'
+alias upgradeall='~/scripts/upgrade.sh'
 alias upgradebrew='brew update && brew upgrade'
 alias upgradebrew='brew update && brew upgrade'
+alias upgradenix='nix-env --upgrade'
 alias upgradepkgin='sudo pkgin update && sudo pkgin upgrade'
 alias workspace='cd $HOME/projects'
-alias youtube="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias youtube='youtubevideo'
 alias youtubearchive="yt-dlp --embed-chapters --xattrs --embed-metadata --write-subs 'bestvideo[ext=webm]+bestaudio[ext=webm]'"
 alias youtubeaudio="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=m4a]'"
 alias youtubeaudioarchive="youtube-dl --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=webm]'"
 alias youtubeogg="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=ogg]'"
 alias youtubeplaylist='yt-dlp --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"'
-alias youtubevideo="yt-dlp --add-chapters --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias youtubevideo="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias yt-dlp='yt-dlp --embed-metadata --embed-chapters'
 alias zipstore='zip -Z store -r'

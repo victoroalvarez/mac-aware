@@ -9,9 +9,23 @@ shift + alt - 0x2A : open -R '/Users/voa/'
 # launch Obsidian
 shift + alt - o : open -na "Obsidian"
 
-# launch Chrome
-shift + alt - b : open -na "Google Chrome"
+# launch Safari
+shift + alt - b : open -na "Safari"
 
+# launch Chrome
+shift + alt - c : open -na "Google Chrome"
+
+# launch Settings
+shift + alt - s : open -na "Settings"
+
+# launch Vivaldi
+shift + alt - v : open -na "Vivaldi"
+
+# launch Google Keep
+#shift + alt - n : open -na "Google Chrome" --args --new-window "https://keep.google.com"
+
+# launch Apple Notes
+shift + alt - n : open -na "Notes"
 
 # rotate layout clockwise
 #shift + alt - r : yabai -m space --rotate 270

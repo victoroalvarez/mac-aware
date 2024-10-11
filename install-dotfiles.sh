@@ -2,7 +2,7 @@
 # install-dotfiles
 # Dotfiles install script for Linux
 
-# Create a /bin & /builds directory on $HOME directory
+# Create a bin, builds & scripts directory on $HOME directory
 mkdir $HOME/bin
 mkdir $HOME/builds
 mkdir $HOME/scripts
