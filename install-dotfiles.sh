@@ -7,9 +7,8 @@ mkdir $HOME/bin
 mkdir $HOME/builds
 mkdir $HOME/scripts
 
-# Create zsh files
+# Create ZSH files
 touch $HOME/.zsh_history
-touch $HOME/.zhistory
 
-# Symlink directories to $HOME
+# Symlink directories to $HOME with Stow
 stow --target=$HOME src
