@@ -48,6 +48,7 @@ alias pinggoogle='ping 8.8.8.8'
 alias readalias='less .alias/alias'
 alias readarchnews='lynx https://archlinux.org/news/' # Read arch news
 alias readnetflix='less $HOME/text/netflix-codes.txt'
+alias recordterminal='asciinema rec demo_$(date "+%Y-%m-%d_%H:%M").cast'
 alias restartskhd='skhd --restart-service'
 alias sa='sortalias && sourcealias'
 alias searchbrew='brew search'

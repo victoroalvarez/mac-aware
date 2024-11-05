@@ -1,0 +1,3 @@
+beaglebone ai
+thinkcentre
+thinkpad x61
