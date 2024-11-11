@@ -16,7 +16,10 @@ PROMPT="%n@%m %~${NEWLINE}%# "
 HISTFILE=$HOME/.zsh_history
 
 # import aliases
-source $HOME/.alias/alias
+#source $HOME/.alias/alias
+if [ -f $HOME/.alias/alias ]; then
+	source $HOME/.alias/alias
+fi
 
 # Herd injected NVM configuration
 export NVM_DIR="/Users/voa/Library/Application Support/Herd/config/nvm"
@@ -34,3 +37,9 @@ export PATH="/Users/voa/Library/Application Support/Herd/bin/":$PATH
 
 # Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/voa/Library/Application Support/Herd/config/php/84/"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+

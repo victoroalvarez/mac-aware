@@ -1,3 +1,5 @@
+Asus ProArt
 beaglebone ai
 thinkcentre
 thinkpad x61
+lg v30
