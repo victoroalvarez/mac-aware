@@ -21,6 +21,8 @@ alias findfile='sudo find / -name'
 alias ga='git add'
 alias gc='git commit'
 alias generatekey='echo "TIP: Name the key id_aneasyname."; ssh-keygen' # generate a ssh key
+alias getexternaladdress='wget -qO- ifconfig.me/ip'
+alias getlocaladdress='ipconfig getifaddr en5'
 alias getram='neofetch |grep Memory'
 alias gitaddall='git add .'
 alias gitc='git commit'
@@ -35,11 +37,14 @@ alias lesshistory='history |less'
 alias listprocesses='ps -e'
 alias ll='ls -la' # show all directories and their permissions
 alias lll='ll | less'
-alias ls='ls --color'
+alias ls='ls --color=auto'
 alias macoscommands='less $HOME/text/macos-commands.txt'
 alias motd='cat /etc/motd'
+alias myexternalip='getexternaladdress'
+alias myip='getlocaladdress'
 alias myserve='python -m http.server' # run SimpleHTTPServer on current directory
 alias myt='youtube-dl --external-downloader aria2c --all-subs --add-metadata -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"' # download videos with mp4 video container
+alias mytextfiles='cd $HOME/text-files-voa'
 alias mytmp4='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"' # download videos with mp4 video container
 alias myvim='vim $HOME/.vimrc'
 alias mywallpaper='feh --bg-tile /home/voa/Pictures/patterns/cubes.xpm.gif'
