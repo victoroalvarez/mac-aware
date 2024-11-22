@@ -3,6 +3,7 @@
 # Dotfiles install script for Linux
 
 # Create a bin, builds & scripts directory on $HOME directory
+mkdir $HOME/.config
 mkdir $HOME/bin
 mkdir $HOME/builds
 mkdir $HOME/scripts
