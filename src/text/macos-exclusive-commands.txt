@@ -1,0 +1,16 @@
+caffeinate
+mdfind
+mdls
+networkquality
+networksetup
+open
+pbcopy
+pbpaste
+pmset
+say
+screencapture
+sips
+softwareupdate
+system_profiler
+taskpolicy
+textutil
