@@ -7,6 +7,7 @@ mkdir $HOME/.config
 mkdir $HOME/bin
 mkdir $HOME/builds
 mkdir $HOME/scripts
+mkdir $HOME/development
 
 # Create ZSH files
 touch $HOME/.zsh_history

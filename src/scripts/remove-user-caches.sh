@@ -1,1 +1,1 @@
-sudo rm -R $HOME/Library/Chaches/*;
+sudo rm -R $HOME/Library/Caches/*
