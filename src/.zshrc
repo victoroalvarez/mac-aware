@@ -13,7 +13,12 @@ bindkey "^[[3~" delete-char
 NEWLINE=$'\n'
 #PROMPT="%K{blue}%n@%m%k %B%F{cyan}%(4~|...|)%3~%F{white} ${NEWLINE}%# %b%f%k"
 PROMPT="%F{green}%n%f%F{green}@%f%F{green}%m%f:%F{blue}%~%f${NEWLINE}%F{blue}%#%f "
+
+# setup history
 HISTFILE=$HOME/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt SHARE_HISTORY # share history in every terminal session
 
 # import aliases
 #source $HOME/.alias/alias

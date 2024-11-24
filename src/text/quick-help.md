@@ -3,3 +3,8 @@
 ```bash
 source victor/bin/activate
 ```
+
+## Start Python Django server
+```bash
+python manage.py runserver
+```
