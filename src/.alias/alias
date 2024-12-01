@@ -1,4 +1,5 @@
 alias addall='git add .' # Add all files to repo
+alias append='$HOME/shell-scripts/append.sh'
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
 alias brewupgrade='brew update && brew upgrade'
 alias c='clear' # Clear terminal
@@ -94,7 +95,7 @@ alias stopxampp='sudo /opt/lampp/lampp stop'
 alias tailhistory='history | tail'
 alias tmuxnewsession='tmux new -s'
 alias updateyoutube='sudo yt-dlp -U'
-alias upgradeall='~/scripts/upgrade.sh'
+alias upgradeall='~/shell-scripts/upgrade.sh'
 alias upgradebrew='brew update && brew upgrade'
 alias upgradebrew='brew update && brew upgrade'
 alias upgradenix='nix-env --upgrade'
