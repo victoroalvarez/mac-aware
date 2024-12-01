@@ -1,0 +1,1 @@
+../mac-aware/src/scripts/configuregit.sh

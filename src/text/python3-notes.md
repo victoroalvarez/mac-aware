@@ -1,10 +1,30 @@
 # Workflow
+## Check Pip Packages
+```
+pip freeze
+```
+
+## Create Environment
+```
+python -m venv victor
+```
+
 ## Enter Environment
 ```bash
 source victor/bin/activate
 ```
 
-## Start Server
+## Exit Environment
+```
+deactivate
+```
+
+## Install Django
+```
+pip install django=='version number'
+```
+
+## Start Django Server
 ```bash
 python manage.py runserver
 ```

@@ -1,0 +1,1 @@
+brew cleanup -s
