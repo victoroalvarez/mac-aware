@@ -1,1 +1,1 @@
-../mac-aware/src/scripts/remove-user-caches.sh
+sudo rm -R $HOME/Library/Caches/*

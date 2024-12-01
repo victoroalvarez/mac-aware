@@ -1,1 +1,1 @@
-../mac-aware/src/scripts/configuregit.sh
+git config --global user.name "Victor O. Alvarez"
