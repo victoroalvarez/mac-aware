@@ -21,6 +21,7 @@ alias editsshconfig='vim $HOME/.ssh/config'
 alias edittmux='vim $HOME/tmux/tmux.conf'
 alias edittodo='vim ~/TODO.md'
 alias editzsh='vim $HOME/.zshrc'
+alias editzsh='vim $HOME/.zshrc'
 alias ek='editkitty' # edit Kitty config
 alias findfile='sudo find / -name'
 alias ga='git add'
