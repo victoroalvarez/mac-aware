@@ -17,6 +17,7 @@ alias editmacoscommands='vim $HOME/text/macos-commands.txt'
 alias editnvim='nvim ~/.config/nvim/init.vim' # edit neovim config
 alias editpythonnotes='vim $HOME/text/python3-notes.md'
 alias editskhd='vim .config/skhd/skhdrc'
+alias editsshconfig='vim $HOME/.ssh/config'
 alias edittmux='vim $HOME/tmux/tmux.conf'
 alias edittodo='vim ~/TODO.md'
 alias editzsh='vim $HOME/.zshrc'

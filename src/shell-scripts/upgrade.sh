@@ -10,5 +10,5 @@ echo 'Upgrade Brew';
 brew update && brew upgrade;
 
 # Upgrade Mac App Store through MAS CLI tool
-#echo "Upgrade Mac App Store Apps through MAS CLI tool";
-#mas upgrade;
+echo "Upgrade Mac App Store Apps through MAS CLI tool";
+mas upgrade;
