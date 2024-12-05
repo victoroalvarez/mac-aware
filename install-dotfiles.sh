@@ -6,7 +6,7 @@
 mkdir $HOME/.config
 mkdir $HOME/bin
 mkdir $HOME/builds
-mkdir $HOME/scripts
+#mkdir $HOME/scripts
 mkdir $HOME/development
 
 # Create ZSH files

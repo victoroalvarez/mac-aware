@@ -1,0 +1,3 @@
+googler
+zathura
+ssg5
