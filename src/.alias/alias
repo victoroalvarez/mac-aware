@@ -1,4 +1,5 @@
 alias addall='git add .' # Add all files to repo
+alias downloadvideo='$HOME/shell-scripts/download-video.sh'
 alias append='$HOME/shell-scripts/append.sh'
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
 alias brewupgrade='brew update && brew upgrade'
