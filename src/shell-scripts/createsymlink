@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Create a symlink from current directory
+ln -s $1 $2
+
+# remember you may pass $(pwd)/file as argument

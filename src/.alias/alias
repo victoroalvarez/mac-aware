@@ -1,5 +1,5 @@
 alias addall='git add .' # Add all files to repo
-alias downloadvideo='$HOME/shell-scripts/download-video.sh'
+alias allowappsfromanywhere='sudo spctl --master-disable'
 alias append='$HOME/shell-scripts/append.sh'
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
 alias brewupgrade='brew update && brew upgrade'
@@ -11,6 +11,7 @@ alias countlines='wc -l'
 alias doubleping='ping -c 10' # Ping 10 times
 alias download='aria2c -j 3 -c' # download a file
 alias downloadtorrent='aria2c -d ~/Downloads/bt --seed-time=0'
+alias downloadvideo='$HOME/shell-scripts/download-video.sh'
 alias editalias="vim ~/.alias/alias" # edit alias files
 alias editbashnotes='vim $HOME/text/bash-scripting-notes.md'
 alias editcnotes='vim $HOME/text/c-programming-notes.md'
@@ -97,6 +98,7 @@ alias sourcealias='source ~/.alias/alias'
 alias spkg='searchpkg'
 alias sqllogin='mysql -u root -p'
 alias startmssqlserver='docker start sql_connect'
+alias startpythonserver='python3 -m http.server'
 alias startxampp='sudo /opt/lampp/lampp start'
 alias stopmssqlserver='docker stop sql_connect'
 alias stopxampp='sudo /opt/lampp/lampp stop'

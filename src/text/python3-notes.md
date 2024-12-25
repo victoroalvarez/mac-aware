@@ -29,6 +29,20 @@ pip install django=='version number'
 python manage.py runserver
 ```
 
+# Django is Extensible
+
+# Choose Python Version on VSCode and or your IDE
+
+# Essential Django Files
+* settings.py
+* urls.py
+
+# Views and Routes
+URLs that is entered for displaying the website or other items like pages. Which URL scheme will we support? URL -> Results (Action or Route). Examples: Fetch all posts.
+
+## Views
+Hold the concrete logic (code) of that action. Function or class of Python code. Code that handles requests and returns responses.
+
 # print
 ```python
 print(number)
