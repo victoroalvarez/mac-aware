@@ -4,7 +4,11 @@
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 
-autoload -U compinit; compinit
+export EDITOR='nvim'
+export VISUAL='nvim'
+
+
+autoload -Uz compinit; compinit # autocompletion
 
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
