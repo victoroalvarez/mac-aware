@@ -1,4 +1,4 @@
-"colo evening
+colo evening
 set clipboard+=unnamedplus
 filetype plugin indent on
 set nocompatible
