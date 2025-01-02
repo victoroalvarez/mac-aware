@@ -13,6 +13,9 @@ mkdir -p $HOME/development
 # Create ZSH files
 touch $HOME/.zsh_history
 
+# Create NVIM undo file
+touch $HOME/nvimundo
+
 # Show full path on finder
 defaults write com.apple.finder _FXShowPosixPathInTile -bool true && killall Finder
 
