@@ -29,16 +29,17 @@ ZSH with Tmux and the Kitty terminal emulator.
 * $HOME denotes the /home/myuser/ directory on a system.
 
 ## Directories
-* src - Contains dotfiles and configurations.
 * docs - Contains documentation and pictures.
+* src - Contains dotfiles and configurations.
 
 ## Change Log
-* 2024-12-19 11:02 am AST. Improve ReadMe file.
-* 2024-11-21 10:21 pm AST. Setup a basic Tmux configuration by following Josean Martinez example and the Arch Linux Wiki. Josean's setup demonstrates how to set up custom keybindings for reload and splitting and further customizations.
-* 2024-07-02 07:59 pm AST. Improve README file.
 * 2024-04-18 05:18 am AST. Fork the repository from shell-aware into mac-aware and remove all GNU/Linux related files and directories.
+* 2024-07-02 07:59 pm AST. Improve README file.
+* 2024-11-21 10:21 pm AST. Setup a basic Tmux configuration by following Josean Martinez example and the Arch Linux Wiki. Josean's setup demonstrates how to set up custom keybindings for reload and splitting and further customizations.
+* 2024-12-19 11:02 am AST. Improve ReadMe file.
 
 ## Links
 * [256 Colors Cheat Sheet](https://www.ditig.com/256-colors-cheat-sheet)
-* [How I Use Tmux With Neovim For An Awesome Dev Workflow On My Mac](https://www.youtube.com/watch?v=U-omALWIBos) - Josean Martinez (Video)
+* [Josean Martinez - How I Use Tmux With Neovim For An Awesome Dev Workflow On My Mac](https://www.youtube.com/watch?v=U-omALWIBos)
+* [Tech Craft - Boost your macOS productivity with Amethyst | Tiling Window Mnager](https://www.youtube.com/watch?v=7Z9-Ry4yGNc)
 * [Terminal Sexy](https://terminal.sexy/)

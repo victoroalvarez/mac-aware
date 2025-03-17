@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Clean DNS Cache
+sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder
