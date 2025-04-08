@@ -112,6 +112,7 @@ alias youtube='youtubevideo'
 alias youtubearchive="yt-dlp --embed-chapters --xattrs --embed-metadata --write-subs 'bestvideo[ext=webm]+bestaudio[ext=webm]'"
 alias youtubeaudio="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=m4a]'"
 alias youtubeaudioarchive="youtube-dl --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=webm]'"
+alias youtubemedium="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'mediumvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias youtubeogg="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=ogg]'"
 alias youtubeplaylist='yt-dlp --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"'
 alias youtubevideo="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
