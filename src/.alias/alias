@@ -1,5 +1,6 @@
 alias addall='git add .' # Add all files to repo
 alias allowappsfromanywhere='sudo spctl --master-disable'
+alias archivehome='rsync -arPv --append --exclude Library --exclude .cache --exclude .Trash --exclude Desktop --exclude Applications --exclude 'Google Drive' --exclude 'My Drive' ~/ /Volumes/BackupsManual/home_directory'
 alias aria2c='aria2c -c -x 3' # Download file with 3 concurrent conections
 alias brewupgrade='brew update && brew upgrade'
 alias c='clear' # Clear terminal
@@ -7,6 +8,7 @@ alias calendar='cal'
 alias checkzip='7z t'
 alias connectwifi='nmtui'
 alias countlines='wc -l'
+alias createlaravelapp='composer create-project laravel/laravel'
 alias doubleping='ping -c 10' # Ping 10 times
 alias download='aria2c -j 3 -c' # download a file
 alias downloadtorrent='aria2c -d ~/Downloads/bt --seed-time=0'
@@ -62,6 +64,7 @@ alias mywallpaper='feh --bg-tile /home/voa/Pictures/patterns/cubes.xpm.gif'
 alias phpserver='php -S localhost:8080'
 alias pinggoogle='ping 8.8.8.8'
 alias readalias='less .alias/alias'
+alias readallconnections='netstat -A'
 alias readarchnews='lynx https://archlinux.org/news/' # Read arch news
 alias readcnotes='less $HOME/text/c-programming-notes.md'
 alias readnetflix='less $HOME/text/netflix-codes.txt'

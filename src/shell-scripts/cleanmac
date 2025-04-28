@@ -1,7 +1,21 @@
 #!/bin/bash
 
 # Clean Brew package manager
+
 brew cleanup -s;
 
+if [ $? -eq 0 ]; then
+	echo 'OK. Cleaned Brew.'
+else
+	echo 'Brew skipped'
+fi	
+
 # Remove most Cache
+
 rm -Rf $HOME/Library/Caches/*;
+
+if [ $? -eq 0 ]; then
+	echo 'OK. Cleaned Chache directory.'
+else
+	echo 'Cache directory skipped.'
+fi
