@@ -12,7 +12,7 @@ fi
 
 # Remove most Cache
 
-rm -Rf $HOME/Library/Caches/*;
+sudo rm -Rf $HOME/Library/Caches/*;
 
 if [ $? -eq 0 ]; then
 	echo 'OK. Cleaned Chache directory.'
