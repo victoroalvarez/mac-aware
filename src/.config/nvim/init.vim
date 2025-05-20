@@ -18,7 +18,7 @@ set shiftwidth=4
 
 " save undo-tress in files
 set undofile
-set undodir=$HOME/nvimundo
+set undodir=$HOME/nvim_undo
 
 " number of undo saved
 set undolevels=10000

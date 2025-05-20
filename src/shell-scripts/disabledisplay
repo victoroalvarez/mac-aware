@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# disable macbook built-in display
+displayplacer "id:1 enabled:false";

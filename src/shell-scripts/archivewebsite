@@ -1,0 +1,3 @@
+#!/bin/bash
+
+httrack $1 -O /tmp/webarchives/$1;
