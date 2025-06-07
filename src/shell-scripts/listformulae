@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# list brew formulae
+brew list --formulae | cat;

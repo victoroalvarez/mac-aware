@@ -1,3 +1,0 @@
-googler
-zathura
-ssg5

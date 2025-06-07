@@ -1,4 +1,4 @@
 # Customization Script
 
-# Install Rossetta 2
+# Install Rosetta 2
 sudo softwareupdate --install-rosetta --agree-to-license

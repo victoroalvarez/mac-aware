@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# list brew casks
+brew list --cask;

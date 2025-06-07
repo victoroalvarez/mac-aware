@@ -1,7 +1,0 @@
-cal
-type
-curl
-df
-lpr
-top
-whois
