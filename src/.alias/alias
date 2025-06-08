@@ -43,13 +43,14 @@ alias grepi='grep -i'
 alias history='history 0'
 alias intallpkg='sudo pkgin install'
 alias killprocess='killall -KILL'
+alias l='ls -l'
 alias la='eza -ax' # show all directories including hidden ones and sort by extension
 alias lessalias='alias | less'
 alias lesshistory='history |less'
 alias listallcontainers='docker container ls -a'
 alias listprocesses='ps -e'
 alias listscripts='ls -l $HOME/shell-scripts/'
-alias ll='eza -la' # show all directories and their permissions
+alias ll='eza -la' # show files and their permissions
 alias lll='ll | less'
 alias ls='ls --color=auto'
 alias macoscommands='less $HOME/text/macos-commands.txt'
