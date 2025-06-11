@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# stop skhd service
+skhd --stop-service;

@@ -1,4 +1,12 @@
 #!/bin/bash
 
+# test for help option
+case "$1" in
+	-h | --help)
+		echo "Take first argument and append it to the text-file passed as a second argument"
+		exit 0
+		;;
+esac
+
 # take first argument and append it to the text-file passed as a second argument
 echo $1 >> $2; 
