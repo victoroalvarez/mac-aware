@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# upload upload file to server
+scp $3 $1@$2:$3
