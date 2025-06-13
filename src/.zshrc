@@ -29,6 +29,12 @@ if [ -f $HOME/.alias/alias ]; then
 	source $HOME/.alias/alias
 fi
 
+# import software
+
+# import PKGSRC
+eval $(/usr/libexec/path_helper)
+
+# import NVM
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export NVM_DIR="$HOME/.nvm"
@@ -37,10 +43,9 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/bin:$PATH"           # add ~/bin to path. Where personal binaries are stored
 export PATH="$HOME/shell-scripts:$PATH" # add shell scripts to path
 
-
+# import HERD and PHP
 # Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/voa/Library/Application Support/Herd/config/php/84/"
-
 
 # Herd injected PHP binary.
 export PATH="/Users/voa/Library/Application Support/Herd/bin/":$PATH

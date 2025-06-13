@@ -2,8 +2,8 @@
 # Upgrade PKGSRC & Brew for macOS
 
 # Upgrade PKGSRC
-#echo 'Upgrade PKGSRC:';
-#sudo pkgin update && sudo pkgin upgrade;
+echo 'Upgrade PKGSRC:';
+sudo pkgin update && sudo pkgin upgrade;
 
 # Upgrade Brew
 echo ''
