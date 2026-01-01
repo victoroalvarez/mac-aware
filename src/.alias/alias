@@ -1,6 +1,3 @@
-#alias youtube='youtubevideo'
-#alias youtubeaudio="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=m4a]'"
-#alias youtubevideo="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias addall='git add .' # Add all files to repo
 alias allowappsfromanywhere='sudo spctl --master-disable'
 alias archivehome='rsync -arPv --append --exclude Library --exclude .cache --exclude .Trash --exclude Desktop --exclude Applications --exclude 'Google Drive' --exclude 'My Drive' ~/ /Volumes/BackupsManual/home_directory'
@@ -111,6 +108,7 @@ alias stopmssqlserver='docker stop sql_connect'
 alias stopxampp='sudo /opt/lampp/lampp stop'
 alias tailhistory='history | tail'
 alias tmuxnewsession='tmux new -s'
+alias tubi="yt-dlp --embed-subs --embed-metadata --embed-chapters"
 alias updateyoutube='sudo yt-dlp -U'
 alias upgradebrew='brew update && brew upgrade'
 alias upgradebrew='brew update && brew upgrade'
@@ -120,9 +118,11 @@ alias vim='/opt/homebrew/bin/vim'
 alias workspace='cd $HOME/projects'
 alias youtubearchive="yt-dlp --embed-chapters --xattrs --embed-metadata --write-subs 'bestvideo[ext=webm]+bestaudio[ext=webm]'"
 alias youtubeaudio="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio'"
+alias youtubeaudio="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=m4a]'"
 alias youtubeaudioarchive="youtube-dl --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=webm]'"
 alias youtubemedium="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'mediumvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias youtubeogg="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=ogg]'"
 alias youtubeplaylist='yt-dlp --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"'
+alias youtubevideo="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias yt-dlp='yt-dlp --embed-metadata --embed-chapters'
 alias zipstore='zip -Z store -r'
