@@ -19,3 +19,6 @@ touch $HOME/nvim_undo
 
 # Symlink directories to $HOME with Stow
 stow --target=$HOME src
+
+# reset amethyst configuration
+defaults delete com.amethyst.Amethyst.plist
