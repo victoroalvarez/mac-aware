@@ -11,8 +11,7 @@ layouts:
   # - tall-right
   # - two-pane
   # - middle-wide
-  # - 3column-left
-  # - 3column-middle
+  - 3column-left
   - middle-wide # The legacy name of "3column-middle"
   - wide
   # - 3column-right

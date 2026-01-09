@@ -16,6 +16,7 @@ alias doubleping='ping -c 10' # Ping 10 times
 alias download='aria2c -j 3 -c' # download a file
 alias downloadtorrent='aria2c -d ~/Downloads/bt --seed-time=0'
 alias editalias="vim ~/.alias/alias" # edit alias files
+alias editamethyst="vim ~/.amethyst.yml"
 alias editbashnotes='vim $HOME/text/bash-scripting-notes.md'
 alias editcnotes='vim $HOME/text/c-programming-notes.md'
 alias editkitty='vim $HOME/.config/kitty/kitty.conf' # edit Kitty configuration

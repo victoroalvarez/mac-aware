@@ -71,6 +71,7 @@ ZSH with Tmux and the Kitty terminal emulator.
 * 2024-07-02 07:59 pm AST. Improve README file.
 * 2024-11-21 10:21 pm AST. Setup a basic Tmux configuration by following Josean Martinez example and the Arch Linux Wiki. Josean's setup demonstrates how to set up custom keybindings for reload and splitting and further customizations.
 * 2024-12-19 11:02 am AST. Improve ReadMe file.
+* 2026-01-09 07:47 pm AST. Add Amethyst configuration file on home directory. Edit Install Script to clear current Amethyst configuration and load the configuration file.
 
 ## Links
 * [256 Colors Cheat Sheet](https://www.ditig.com/256-colors-cheat-sheet)
