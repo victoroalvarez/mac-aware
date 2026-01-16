@@ -1,5 +1,5 @@
-# Mac-Aware
-**Mac-Aware** is a collection of Dotfiles and a Mouse-less Development Environment setup for **macOS**. This setup uses **Amethyst** for tiling window management and **SKHD** for custom GUI keybindings. These files are managed with **GNU Stow**. They work for me and can serve as an example to you. Please don't use these files as they are; instead, read them and adapt them to your needs.
+# MacAware
+**MacAware** is a collection of Dotfiles and a Mouse-less Development Environment setup for Apple's **macOS**. This setup uses **Amethyst** for tiling window management and **SKHD** for custom GUI keybindings. These files are managed with **GNU Stow**. They work for me and can serve as an example to you. Please don't use these files as they are; instead, read them and adapt them to your needs.
 
 ## Apps and Programs I use
 List of Apps and CLI programs
