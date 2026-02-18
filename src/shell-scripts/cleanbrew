@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Clean Brew package manager
+
+brew cleanup -s;
+
+if [ $? -eq 0 ]; then
+	echo 'OK. Cleaned Brew.'
+else
+	echo 'Brew skipped'
+fi	
