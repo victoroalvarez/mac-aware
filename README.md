@@ -31,7 +31,7 @@ List of Apps and CLI programs
 
 ## Configuration
 ### Tmux
-#### Tmux Keybindings
+#### Tmux Key Bindings
 * Ctrl+b - Horizontal Division
 * Ctrl+b | Vertical Division
 
