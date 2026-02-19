@@ -223,9 +223,9 @@ toggle-tiling:
 #   key: <NONE>
 
 # Rerun the current layout's algorithm.
-reevaluate-windows:
-  mod: mod1
-  key: z
+#reevaluate-windows:
+#  mod: mod1
+#  key: z
 
 # Turn on or off focus-follows-mouse.
 toggle-focus-follows-mouse:
@@ -320,7 +320,7 @@ screen-padding-top: 0
 screen-padding-bottom: 0
 
 # true to maintain layout state across application executions (default true).
-restore-layouts-on-launch: true
+restore-layouts-on-launch: false
 
 # true to display some optional debug information in the layout HUD (default false).
 debug-layout-info: false
