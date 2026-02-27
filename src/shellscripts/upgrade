@@ -1,0 +1,6 @@
+#!/bin/bash
+# Upgrade Brew
+
+# Upgrade Brew
+echo 'Upgrade Brew:'
+brew update && brew upgrade

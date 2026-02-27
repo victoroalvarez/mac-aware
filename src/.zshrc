@@ -41,7 +41,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 export PATH="$HOME/bin:$PATH"           # add ~/bin to path. Where personal binaries are stored
-export PATH="$HOME/shell-scripts:$PATH" # add shell scripts to path
+export PATH="$HOME/shellscripts:$PATH" # add shell scripts to path
 
 # import HERD and PHP
 # Herd injected PHP 8.4 configuration.
