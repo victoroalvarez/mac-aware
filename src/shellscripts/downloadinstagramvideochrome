@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# download Instagram video with Chrome cookies
+yt-dlp --cookies-from-browser chrome $1

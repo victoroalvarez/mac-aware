@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Clean macOS with the Mole app"
+mo clean

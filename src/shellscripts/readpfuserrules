@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# load pf firewall user rules
+less /etc/pf.anchors/user.rules

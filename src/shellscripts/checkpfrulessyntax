@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# check PF rules syntax through a dry run load
+sudo pfctl -n -f /etc/pf.conf

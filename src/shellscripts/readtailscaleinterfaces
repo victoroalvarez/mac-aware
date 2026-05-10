@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# find which utun interface has your Tailscale IP right now
+ifconfig | grep -B5 "100\."

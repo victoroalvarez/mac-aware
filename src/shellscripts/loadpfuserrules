@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# load pf firewall user rules
+sudo pfctl -e -f /etc/pf.conf

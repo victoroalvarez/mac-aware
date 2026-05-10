@@ -55,7 +55,8 @@ alias listallcontainers='docker container ls -a'
 alias listprocesses='ps -e'
 alias listscripts='ls -l $HOME/shell-scripts/'
 alias listtailscale='tailscale status'
-alias ll='eza -la' # show files and their permissions
+alias ll='eza -l' # show files and their permissions
+alias lla='eza -la' # show files and their permissions
 alias lll='ll | less'
 alias ls='ls --color=auto'
 alias macoscommands='less $HOME/text/macos-commands.txt'

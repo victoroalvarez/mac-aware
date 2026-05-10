@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# list user shellscripts
+ls -la ~/shellscripts/

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# read active user rules
+sudo pfctl -a user.rules -s rules

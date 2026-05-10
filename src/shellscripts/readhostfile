@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# read host file
+less /etc/hosts

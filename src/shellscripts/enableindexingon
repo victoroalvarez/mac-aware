@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# enable spotlight indexing on a Volume. Pass the volume root directory as argument.
+sudo mdutil -Ei on $1

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# load pf firewall user rules
+sudo vim /etc/pf.anchors/user.rules
