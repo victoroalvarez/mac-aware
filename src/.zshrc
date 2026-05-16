@@ -25,6 +25,11 @@ if [ -f $HOME/.alias/alias ]; then
 	source $HOME/.alias/alias
 fi
 
+# Import ~/bin
+if [ -f $HOME/bin ]; then
+	source $HOME/bin/*
+fi
+
 # Import Software
 
 # Rust
