@@ -56,8 +56,22 @@ My prefix key is Ctrl+b and my two most important command keys are "-" and "|" f
 * $HOME denotes the /Users/your-user/ directory on a system.
 
 ## 4.0 Directories
+This is a list of the project sub-directories.
 * docs - Contains documentation and pictures.
 * src - Contains dotfiles and configurations.
+* setup-scripts - Contains other setup scripts apart from the Install and Uninstall scripts.
+
+### 4.1 Directory Tree
+This is a directory tree that details the project file structure.
+```text
+mac-aware/
+├── docs/
+├── setup-scripts/
+├── src/
+├-- install.sh
+├-- uninstall.sh
+└-- README.md
+```
 
 ## 5.0 Change Log
 * 2024-04-18 05:18 am AST. Fork the repository from shell-aware into mac-aware and remove all GNU/Linux related files and directories.
