@@ -4,9 +4,9 @@ Mouseless Development Environment Setup and Dotfile collection for Apple's **mac
 ## 1.0 How are these files managed?
 To manage these files, I use Stow or GNU Stow. Stow helps me keep my Dotfiles in one directory and symlink these files to their corresponding location on my $HOME directory.
 
-In my install script, I first create directories where the files will be stored. Then I symlink the files with Stow.
+In my Install Script, I first create directories where the files will be stored. Then I symlink the files with Stow.
 
-After creating the required files and directories on $HOME, my install script runs:
+After creating the required files and directories on $HOME, my Install Script runs:
 
 ```bash
 stow --target=$HOME src
@@ -65,10 +65,11 @@ My prefix key is Ctrl+b and my two most important command keys are "-" and "|" f
 * 2024-11-21 10:21 pm AST. Setup a basic Tmux configuration by following Josean Martinez example and the Arch Linux Wiki. Josean's setup demonstrates how to set up custom keybindings for reload and splitting and further customizations.
 * 2024-12-19 11:02 am AST. Improve ReadMe file.
 * 2026-01-09 07:47 pm AST. Add Amethyst configuration file on home directory. Edit Install Script to clear current Amethyst configuration and load the configuration file.
-* 2026-05-16 02:11 pm AST. Improve README file and prune aliases and ZSH configuration files.
+* 2026-05-16 02:11 pm AST. Improve README file by documenting the Tmux configuration and prune aliases and ZSH configuration files.
 
 ## 6.0 Links
 * [256 Colors Cheat Sheet](https://www.ditig.com/256-colors-cheat-sheet)
+* [A Quick and Easy Guide to tmux](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 * [Josean Martinez - How I Use Tmux With Neovim For An Awesome Dev Workflow On My Mac](https://www.youtube.com/watch?v=U-omALWIBos)
 * [Tech Craft - Boost your macOS productivity with Amethyst | Tiling Window Mnager](https://www.youtube.com/watch?v=7Z9-Ry4yGNc)
 * [Terminal Sexy](https://terminal.sexy/)
