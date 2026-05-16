@@ -20,14 +20,14 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt SHARE_HISTORY # share history in every terminal session
 
-# Import aliases
-if [ -f $HOME/.alias/alias ]; then
-	source $HOME/.alias/alias
+# Import alias file
+if [ -f "$HOME/.alias/alias" ]; then
+	source "$HOME/.alias/alias"
 fi
 
-# Import ~/bin
-if [ -f $HOME/bin ]; then
-	source $HOME/bin/*
+# Import ~/bin directory
+if [ -d "$HOME/bin" ]; then
+	source "$HOME/bin"
 fi
 
 # Import Software
