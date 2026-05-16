@@ -1,6 +1,6 @@
 #!/bin/sh
-# install-dotfiles
+# uninstall.sh
 # Dotfiles uninstall script for macOS
 
-# Symlink directories to $HOME with Stow
+# Remove Symlinks to files & directories with Stow
 stow -D --target=$HOME src
