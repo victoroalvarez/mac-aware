@@ -68,7 +68,6 @@ alias myt='youtube-dl --external-downloader aria2c --all-subs --add-metadata -f 
 alias mytextfiles='cd $HOME/text-files-voa'
 alias mytmp4='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"' # download videos with mp4 video container
 alias myvim='vim $HOME/.vimrc'
-alias mywallpaper='feh --bg-tile /home/voa/Pictures/patterns/cubes.xpm.gif'
 alias phpserver='php -S localhost:8080'
 alias pinggoogle='ping 8.8.8.8'
 alias readalias='less .alias/alias'

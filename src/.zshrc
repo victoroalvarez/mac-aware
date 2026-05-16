@@ -1,11 +1,7 @@
 # ~/.zshrc
-# These configurations work with Terminator (terminal emulator) & Linux.
 
-# If not running interactively, don't do anything
-#[[ $- != *i* ]] && return
-
-export EDITOR='nvim' # set nvim as editor
-export VISUAL='nvim'
+export EDITOR='vim' # set nvim as editor
+export VISUAL='vim'
 
 
 autoload -Uz compinit; compinit # autocompletion
@@ -18,23 +14,26 @@ NEWLINE=$'\n' # newline in a variable
 #PROMPT="%K{blue}%n@%m%k %B%F{cyan}%(4~|...|)%3~%F{white} ${NEWLINE}%# %b%f%k"
 PROMPT="%F{yellow}%n%f%F{yellow}@%f%F{yellow}%m%f:%F{blue}%~%f${NEWLINE}%F{blue}%#%f "
 
-# setup history
+# Setup history
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt SHARE_HISTORY # share history in every terminal session
 
-# import aliases
+# Import aliases
 if [ -f $HOME/.alias/alias ]; then
 	source $HOME/.alias/alias
 fi
 
-# import software
+# Import Software
 
-# import PKGSRC
+# Rust
+source "$HOME/.cargo/env"
+
+# Import PKGSRC
 eval $(/usr/libexec/path_helper)
 
-# import NVM
+# Import NVM
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export NVM_DIR="$HOME/.nvm"
