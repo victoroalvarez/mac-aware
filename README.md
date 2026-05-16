@@ -1,33 +1,5 @@
 # MacAware
-**MacAware** is a collection of Dotfiles and a Mouse-less Development Environment setup for Apple's **macOS**. This setup uses **Amethyst** for tiling window management and **SKHD** for custom GUI keybindings. These files are managed with **GNU Stow**. They work for me and can serve as an example to you. Please don't use these files as they are; instead, read them and adapt them to your needs.
-
-## Apps and Programs I use
-List of Apps and CLI programs
-
-* Amethyst
-* Bat
-* Brave
-* Chrome
-* Eza
-* FFMPEG
-* Firefox
-* Freeform
-* Git
-* Kindle App
-* Kitty
-* MacDown
-* NeoVim
-* Obsidian
-* Pandoc
-* SKHD
-* Stow
-* Tmux
-* UTM
-* VIM
-* Vivaldi
-* XCode
-* YT-DLP
-* ZShell
+Mouseless Development Environment Setup and Dotfile collection for Apple's **macOS**. This setup uses **Amethyst** for tiling window management and **SKHD** for custom GUI keybindings. These files are managed with **GNU Stow**. They work for me and can serve as an example to you. Please don't use these files as they are; instead, read them and adapt them to your needs.
 
 ## Configuration
 ### Tmux
@@ -38,16 +10,15 @@ List of Apps and CLI programs
 ## FAQ
 
 ### How are these files managed?
-To manage these files, I use GNU Stow. Stow helps me keep my Dotfiles in one directory and symlink these files to their corresponding location on my $HOME directory.
-I first create directories where the files will be stored. Then I symlink the files with Stow.
+To manage these files, I use Stow or GNU Stow. Stow helps me keep my Dotfiles in one directory and symlink these files to their corresponding location on my $HOME directory. In my install script, I first create directories where the files will be stored. Then I symlink the files with Stow.
 
-For example, after a new OS installation, to symlink files located on the repository's src/ directory to the $HOME/ directory of my machine, I go to the root of this repository and type:
+After creating the required files and directories on $HOME, my install script runs:
 
 ```bash
 stow --target=$HOME src
 ```
 
-This command takes everything inside src/ directory and symlinks it to their corresponding locations on my user's $HOME directory.
+This command takes everything inside src/ directory and symlinks it to its corresponding location on my user's $HOME directory.
 
 ### How to install this setup?
 From the project's root directory, type into your shell:
@@ -60,7 +31,7 @@ stow --target=$HOME src
 ZSH with Tmux and the Kitty terminal emulator.
 
 ## Conventions
-* $HOME denotes the /home/myuser/ directory on a system.
+* $HOME denotes the /Users/your-user/ directory on a system.
 
 ## Directories
 * docs - Contains documentation and pictures.
