@@ -24,7 +24,7 @@ From the project's root directory, type this into your shell to run the install 
 ```
 This Install Script first creates the required directories in your $HOME directory and then symlinks the files located within the src/ directory into their corresponding place in your $HOME.
 
-### 1.2 How to uninstall this setup?
+### 1.1 How to uninstall this setup?
 From the project's root directory, type this into your shell to run the uninstall script:
 
 ```bash
@@ -32,18 +32,25 @@ From the project's root directory, type this into your shell to run the uninstal
 ```
 This Uninstall Script removes all the created symlinks but does leave behind the directories created by the Install Script.
 
-### 1.3 How and Where do I Create New Files?
+### 1.2 How and Where do I Create New Files?
 You create new files within the src/ directory and then run the Install Script once again.
 
 You may also create new files within an exising Sym-linked directory without creating it first within the src/ directory.
 
-### 1.4 Which Shell and Terminal do you use?
+### 1.3 Which Shell and Terminal do you use?
 ZSH with Tmux and the Kitty terminal emulator.
 
 ## 2.0 Configuration
 ### 2.1 Tmux Key Bindings
-* Ctrl+b - Horizontal Division
-* Ctrl+b | Vertical Division
+Tmux commands get triggered first by pressing the "prefix key" and then a "command key".
+
+My prefix key is Ctrl+b and my two most important command keys are "-" and "|" for horizontal Division and vertical division correspondingly.
+
+| Prefix Key | Command Key | What it does              |
+| ---------- | ----------- | ------------------------- |
+| Ctrl+b     | -           | Horizontal Division       |
+| Ctrl+b     | \|          | Vertical Division         |
+| Ctrl+b     | r           | Reload Tmux Configuration |
 
 ### 2.2 Conventions
 * $HOME denotes the /Users/your-user/ directory on a system.
