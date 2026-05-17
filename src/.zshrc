@@ -3,7 +3,6 @@
 export EDITOR='vim' # set nvim as editor
 export VISUAL='vim'
 
-
 autoload -Uz compinit; compinit # autocompletion
 
 bindkey "^[[H" beginning-of-line
