@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# Upgrade Brew
-echo 'Upgrade Brew:'
-brew upgrade
-
-# Upgrade apps with MAS
-mas upgrade
