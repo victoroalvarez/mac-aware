@@ -53,7 +53,7 @@ My prefix key is Ctrl+b and my two most important command keys are "-" and "|" f
 | Prefix Key | Command Key | What it does |
 | :---- | :---- | :---- |
 | Ctrl+b | \- | Horizontal Division |
-| Ctrl+b | | | Vertical Division |
+| Ctrl+b | \| | Vertical Division |
 | Ctrl+b | r | Reload Tmux Configuration |
 
 ### 2.2 Conventions
