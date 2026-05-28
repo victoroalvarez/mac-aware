@@ -10,7 +10,9 @@ In my Install Script, I first create directories where the files will be stored.
 
 After creating the required files and directories on $HOME, my Install Script runs:
 
+```sh
 stow \--target=$HOME src
+```
 
 This command takes everything inside src/ directory and symlinks it to its corresponding location on my user's $HOME directory.
 
@@ -20,7 +22,9 @@ First consider creating a new repository from this template. Remove the existing
 
 From the project's root directory, type this into your shell to run the install script:
 
+```sh
 ./install.sh
+```
 
 This Install Script first creates the required directories in your $HOME directory and then symlinks the files located within the src/ directory into their corresponding place in your $HOME.
 
@@ -28,7 +32,9 @@ This Install Script first creates the required directories in your $HOME directo
 
 From the project's root directory, type this into your shell to run the uninstall script:
 
+```sh
 ./uninstall.sh
+```
 
 This Uninstall Script removes all the created symlinks but does leave behind the directories created by the Install Script.
 
