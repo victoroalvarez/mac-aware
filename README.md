@@ -62,29 +62,22 @@ My prefix key is Ctrl+b and my two most important command keys are "-" and "|" f
 
 ### 2.3 ZSH Configuration Files
 
-* .zprofile: Configures the PATH and Editor value.
-* .zshrc: Sets keybindings, prompt and history.
+This table lists ZSH files and what they contain.
+
+| File | Description |
+| :--- | :---------- |
+| .zprofile | Configures the PATH and Editor value. |
+| .zshrc | Sets keybindings, prompt and history. |
 
 ## 3.0 Directories
 
-This is a list of the project sub-directories.
+This is table lists the project sub-directories and what they contain.
 
-* docs \- Contains documentation and pictures.  
-* src \- Contains dotfiles and configurations.  
-* setup-scripts \- Contains other setup scripts apart from the Install and Uninstall scripts.
-
-### 3.1 Directory Tree
-
-This is a directory tree that details the project file structure.
-
-mac-aware/
-
-├── docs/
-├── setup-scripts/
-├── src/
-├-- install.sh
-├-- uninstall.sh
-└-- README.md
+| Directory       | Description                                                                |
+| :-------------- | :------------------------------------------------------------------------- |
+| docs/           | Contains documentation and pictures.                                       |
+| src/            | Contains dotfiles and configurations.                                      |
+| setup-scripts/  | Contains other setup scripts apart from the Install and Uninstall scripts. |
 
 ## 4.0 Change Log
 
