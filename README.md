@@ -11,7 +11,7 @@ In my Install Script, I first create directories where the files will be stored.
 After creating the required files and directories on $HOME, my Install Script runs:
 
 ```sh
-stow \--target=$HOME src
+stow --target=$HOME src
 ```
 
 This command takes everything inside src/ directory and symlinks it to its corresponding location on my user's $HOME directory.
