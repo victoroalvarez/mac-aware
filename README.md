@@ -60,7 +60,12 @@ My prefix key is Ctrl+b and my two most important command keys are "-" and "|" f
 
 * $HOME denotes the /Users/your-user/ directory on a system.
 
-## 4.0 Directories
+### 2.3 ZSH Configuration Files
+
+* .zprofile: Configures the PATH and Editor value.
+* .zshrc: Sets keybindings, prompt and history.
+
+## 3.0 Directories
 
 This is a list of the project sub-directories.
 
@@ -68,7 +73,7 @@ This is a list of the project sub-directories.
 * src \- Contains dotfiles and configurations.  
 * setup-scripts \- Contains other setup scripts apart from the Install and Uninstall scripts.
 
-### 4.1 Directory Tree
+### 3.1 Directory Tree
 
 This is a directory tree that details the project file structure.
 
@@ -81,7 +86,7 @@ mac-aware/
 ├-- uninstall.sh
 └-- README.md
 
-## 5.0 Change Log
+## 4.0 Change Log
 
 * 2024-04-18 05:18 am AST. Fork the repository from shell-aware into mac-aware and remove all GNU/Linux related files and directories.  
 * 2024-07-02 07:59 pm AST. Improve README file.  
@@ -89,11 +94,13 @@ mac-aware/
 * 2024-12-19 11:02 am AST. Improve ReadMe file.  
 * 2026-01-09 07:47 pm AST. Add Amethyst configuration file on home directory. Edit Install Script to clear current Amethyst configuration and load the configuration file.  
 * 2026-05-16 02:11 pm AST. Improve README file by documenting the Tmux configuration and prune aliases and ZSH configuration files.
+* 2026-05-28 05:32 pm AST. Re-organize ZSH configuration files. Now, the .zprofile file sets the PATH and CLI Editor. Improve README file.
 
-## 6.0 Links
+## 5.0 Links
 
 * [256 Colors Cheat Sheet](https://www.ditig.com/256-colors-cheat-sheet)  
 * [A Quick and Easy Guide to tmux](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)  
+* [How Do Zsh Configuration Files Work?](https://www.freecodecamp.org/news/how-do-zsh-configuration-files-work/)
 * [Josean Martinez \- How I Use Tmux With Neovim For An Awesome Dev Workflow On My Mac](https://www.youtube.com/watch?v=U-omALWIBos)  
 * [Tech Craft \- Boost your macOS productivity with Amethyst | Tiling Window Mnager](https://www.youtube.com/watch?v=7Z9-Ry4yGNc)  
 * [Terminal Sexy](https://terminal.sexy/)
