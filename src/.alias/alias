@@ -5,7 +5,6 @@ alias checkostype="sysctl kern.ostype"
 alias countlines='wc -l'
 alias createlaravelapp='composer create-project laravel/laravel'
 alias doubleping='ping -c 10' # Ping 10 times
-alias downloadtorrent='aria2c -d ~/Downloads/bt --seed-time=0'
 alias editalias="vim ~/.alias/alias" # edit alias files
 alias editamethyst="vim ~/.amethyst.yml"
 alias editbashnotes='vim ~/text/bash-scripting-notes.md'
