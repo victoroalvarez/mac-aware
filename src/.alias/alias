@@ -41,6 +41,7 @@ alias l='ls -l'
 alias la='eza -ax' # show all directories including hidden ones and sort by extension
 alias lessalias='alias | less'
 alias lesshistory='history |less'
+alias limastart="limactl start --mount-none"
 alias listallcontainers='docker container ls -a'
 alias listprocesses='ps -e'
 alias listscripts='ls -l $HOME/shell-scripts/'
@@ -99,6 +100,7 @@ alias startpythonserver='python3 -m http.server'
 alias startxampp='sudo /opt/lampp/lampp start'
 alias stopmssqlserver='docker stop sql_connect'
 alias stopxampp='sudo /opt/lampp/lampp stop'
+alias streamingvideo="yt-dlp --embed-subs --embed-metadata --external-downloader aria2c"
 alias tailhistory='history | tail'
 alias tmuxnewsession='tmux new -s'
 alias tubi="yt-dlp --embed-subs --embed-metadata --embed-chapters -k"
@@ -115,7 +117,7 @@ alias youtubeaudio="yt-dlp --embed-metadata --external-downloader aria2c -f 'bes
 alias youtubeaudioarchive="youtube-dl --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=webm]'"
 alias youtubemedium="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'mediumvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias youtubeogg="yt-dlp --embed-metadata --external-downloader aria2c -f 'bestaudio[ext=ogg]'"
-alias youtubeplaylist='yt-dlp --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"'
+alias youtubeplaylist="yt-dlp --yes-playlist --add-chapters --embed-metadata --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias youtubevideo="yt-dlp --add-chapters --embed-metadata --external-downloader aria2c -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias yt-dlp='yt-dlp --embed-metadata --embed-chapters'
 alias zipstore='zip -Z store -r'
