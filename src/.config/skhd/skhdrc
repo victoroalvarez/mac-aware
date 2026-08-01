@@ -1,5 +1,6 @@
 # start kitty terminal
 shift + alt - return : open -na kitty
+shift + alt + ctrl - return : open -na Terminal
 
 # start apps
 #shift + alt - n : open -na "Notes"
