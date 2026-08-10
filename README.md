@@ -85,17 +85,7 @@ This is table lists the project sub-directories and what they contain.
 | src/            | Contains dotfiles and configurations.                                      |
 | setup-scripts/  | Contains other setup scripts apart from the Install and Uninstall scripts. |
 
-## 4.0 Change Log
-
-* 2024-04-18 05:18 am AST. Fork the repository from shell-aware into mac-aware and remove all GNU/Linux related files and directories.  
-* 2024-07-02 07:59 pm AST. Improve README file.  
-* 2024-11-21 10:21 pm AST. Setup a basic Tmux configuration by following Josean Martinez example and the Arch Linux Wiki. Josean's setup demonstrates how to set up custom keybindings for reload and splitting and further customizations.  
-* 2024-12-19 11:02 am AST. Improve ReadMe file.  
-* 2026-01-09 07:47 pm AST. Add Amethyst configuration file on home directory. Edit Install Script to clear current Amethyst configuration and load the configuration file.  
-* 2026-05-16 02:11 pm AST. Improve README file by documenting the Tmux configuration and prune aliases and ZSH configuration files.
-* 2026-05-28 05:32 pm AST. Re-organize ZSH configuration files. Now, the .zprofile file sets the PATH and CLI Editor. Improve README file.
-
-## 5.0 Links
+## 4.0 Links
 
 * [256 Colors Cheat Sheet](https://www.ditig.com/256-colors-cheat-sheet)  
 * [A Quick and Easy Guide to tmux](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)  
