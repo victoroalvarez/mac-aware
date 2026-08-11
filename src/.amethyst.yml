@@ -242,8 +242,8 @@ new-windows-to-main: false
 # Set to true to automatically move to the space where a window is thrown to.
 follow-space-thrown-windows: false
 
-# Integer percentage of screen size dimension to increment or decrement when resizing the main pane ratios (default 5).
-window-resize-step: 5
+# Integer percentage of screen size dimension to increment or decrement when resizing the main pane ratios (default 5, try to use 2 or 5)
+window-resize-step: 2
 
 # Padding setting that applies between windows and the left edge of the screen (px unit, default 0)
 screen-padding-left: 0
