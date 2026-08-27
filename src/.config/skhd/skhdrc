@@ -4,11 +4,10 @@ shift + alt - return : open -na kitty
 
 # start apps
 shift + alt - 0x2A : open -R '/Users/voa/'
-shift + alt - b : open -na "Brave Browser"
-shift + alt - c : open -na "Google Chrome"
+shift + alt - b : open -na "FireFox"
+shift + alt - p : open -na "Google Chrome"
 shift + alt - n : open -na "Google Chrome" --args --new-window "https://keep.google.com"
 shift + alt - o : open -na "Obsidian"
-shift + alt - p : open -na "FireFox"
 shift + alt - s : open -na "Settings"
 shift + alt - u : open -na "UTM"
 shift + alt - v : open -na "Vivaldi"
