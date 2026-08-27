@@ -9,3 +9,4 @@
 * 2026-05-28 05:32 pm AST. Re-organize ZSH configuration files. Now, the .zprof    ile file sets the PATH and CLI Editor. Improve README file.
 * 2026-08-09 10:34 pm AST. Improve and prune Amethyst configuration file.
 * 2026-08-09 10:38 pm AST. Create a CHANGELOG file in the projects directory and delete the Change Log section from the README file.
+* 2026-08-27 01:40 am AST. Change license from the Unlicense to the BSD 3-Clause License.
