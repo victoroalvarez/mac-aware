@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# delete timemachine snapshots
+sudo tmutil deletelocalsnapshots /
