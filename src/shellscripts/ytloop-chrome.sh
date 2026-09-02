@@ -5,7 +5,7 @@
 
 RET=1
 until [ ${RET} -eq 0 ]; do
-    yt-dlp -a $1 --cookies-from-browser chrome
+    yt-dlp -a "$1" --cookies-from-browser chrome
     RET=$?
     sleep 2
 done

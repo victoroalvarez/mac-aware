@@ -1,1 +1,3 @@
-sudo rm -R $HOME/Library/Caches/*
+#!/bin/bash
+
+sudo rm -R "$HOME/Library/Caches/*"

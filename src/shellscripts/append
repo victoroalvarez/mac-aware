@@ -9,4 +9,4 @@ case "$1" in
 esac
 
 # take first argument and append it to the text-file passed as a second argument
-echo $1 >> $2; 
+echo "$1" >> "$2"; 

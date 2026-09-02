@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # upload clients public ssh key to server
-ssh-copy-id $1;
+ssh-copy-id "$1";
