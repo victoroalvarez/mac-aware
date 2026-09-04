@@ -3,13 +3,13 @@
 
 # Upgrade PKGSRC
 upgrade_pkgsrc() {
-  printf '\nUpgrade PKGSRC:';
+  printf '\nUpgrade PKGSRC:\n';
   sudo pkgin update && sudo pkgin upgrade;
 }
 
 # Upgrade Brew
 upgrade_brew() {
- printf '\nUpgrade Brew:';
+ printf '\nUpgrade Brew:\n';
  brew update && brew upgrade;
 }
 
