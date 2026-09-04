@@ -40,6 +40,7 @@ alias lessalias='alias | less'
 alias lesshistory='history |less'
 alias limastart="limactl start --mount-none"
 alias listallcontainers='docker container ls -a'
+alias listcommits="git log -n 5"
 alias listprocesses='ps -e'
 alias listscripts='ls -l $HOME/shell-scripts/'
 alias listtailscale='tailscale status'
