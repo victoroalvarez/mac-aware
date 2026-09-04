@@ -11,5 +11,5 @@
 * 2026-08-09 10:38 pm AST. Create a CHANGELOG file in the projects directory and delete the Change Log section from the README file.
 * 2026-08-27 01:40 am AST. Change license from the Unlicense to the BSD 3-Clause License.
 * 2026-08-30 11:47 am AST. Add logo pictures to the docs/ directory and add logo to the README file.
-* 2026-09-04 11:40 am AST. Delete unnecessary files.
+* 2026-09-04 11:40 am AST. Reorganize upgradeall shellscripts.  Delete unnecessary files.
 
