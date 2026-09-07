@@ -1,0 +1,23 @@
+#!/bin/bash
+# cleanmusiccache
+# Clean Apple Music Cache
+
+# Remove most Cache
+delete_music_cache() {
+	sudo rm -Rf "$HOME/Library/Caches/*";
+
+	if [ $? -eq 0 ]; then
+		echo 'OK. Cleaned Music Chache directory.'
+	else
+		echo 'Music Cache directory skipped.'
+	fi
+}
+
+# Clear Music & Music Cache
+main () {
+	delete_music_cache
+}
+
+# Run main
+main
+
