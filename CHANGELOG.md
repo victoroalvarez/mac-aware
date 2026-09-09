@@ -13,3 +13,4 @@
 * 2026-08-30 11:47 am AST. Add logo pictures to the docs/ directory and add logo to the README file.
 * 2026-09-04 11:40 am AST. Reorganize upgradeall shellscripts. Delete unnecessary files.
 * 2026-09-05 07:08 am AST. Delete unnecessary files.
+* 2026-09-09 09:05 am AST. Add scripts and update Yt-dlp configuration file.
