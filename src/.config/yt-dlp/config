@@ -1,1 +1,1 @@
--o ~/Downloads/Youtube_Downloads/%(title)s.%(ext)s
+-o ~/Downloads/Youtube/%(title)s.%(ext)s
