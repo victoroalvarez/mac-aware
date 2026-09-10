@@ -1,0 +1,39 @@
+# Rclone Home Directory Filter
+# exclusion list
+- *.iso
+- .Trash/**
+- .dropbox/
+- .git/**
+- .lima/**
+- .stfolder/**
+- /.DDLocalBackups/**
+- /.DDPreview/**
+- /.Trash/**
+- /.android/**
+- /.cache/**
+- /.console-ninja/**
+- /.dropbox/**
+- /.lima/**
+- /.local/**
+- /Applications/**
+- /Desktop/**
+- /Documents/**
+- /Downloads/**
+- /Dropbox/**
+- /Herd/**
+- /Library/**
+- /Library/Caches/**
+- /Movies/**
+- /Music/**
+- /Pictures/**
+- /VirtualBox\ VMs/**
+- /Virtual\ Machines.localized/**
+- /node_modules/**
+- Desktop/**
+- Dropbox/**
+- Library/**
+- VirtualBox\ VMs/**
+- Virtual\ Machines.localized/**
+
+# inclusion list
++ *
