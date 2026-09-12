@@ -55,3 +55,7 @@ export NVM_DIR="$HOME/.nvm"
 # Import HERD and PHP. Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/voa/Library/Application Support/Herd/config/php/84/"
 export PATH="/Users/voa/Library/Application Support/Herd/bin/":$PATH
+# Setting PATH for Python 3.14
+# The original version is saved in .zprofile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.14/bin:${PATH}"
+export PATH
