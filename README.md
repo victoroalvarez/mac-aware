@@ -1,10 +1,8 @@
-<div align="center">
 # MacAware
 
 ![Logo](docs/pictures/logo1-white.png)
 
 Mouseless Development Environment Setup and Dotfile collection for Apple's ***macOS***. This setup uses ***Amethyst*** for tiling window management and ***SKHD*** for custom GUI keybindings. These files are managed with ***GNU Stow***. They work for me and can serve as an example to you. Please don't use these files as they are, and instead read them and adapt them to your needs.
-</div>
 
 ## 1.0 How are these files managed?
 
