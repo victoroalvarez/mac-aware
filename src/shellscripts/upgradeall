@@ -15,8 +15,7 @@ upgrade_brew() {
 
 # Run all upgrades
 main() {
- upgrade_pkgsrc
- upgrade_brew
+ upgrade_pkgsrc && upgrade_brew
 }
 
 # Run main function
