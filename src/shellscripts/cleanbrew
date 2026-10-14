@@ -2,7 +2,7 @@
 
 # Clean Brew package manager
 
-brew cleanup -s;
+brew cleanup -s && brew cleanup --prune=all;
 
 if [ $? -eq 0 ]; then
 	echo 'OK. Cleaned Brew.'
